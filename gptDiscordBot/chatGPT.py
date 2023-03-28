@@ -36,7 +36,7 @@ def get_info():
         print('your gpt API key is:', gptkey)
         return discord, gptkey
     except:
-        print("you don't have dc token or gpt API key")
+        print("you don't have discord token or gpt API key")
 
 
 create_config_json()
